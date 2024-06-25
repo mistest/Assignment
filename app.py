@@ -24,7 +24,7 @@ def main():
   outcome, result_json = connect_to_mw_dict(key, dict)
 
   if outcome == True:
-    txt= str(result_json[0])
+    txt= str(result_json[0] ['def'][0] ['sseq'][0][0][1] ['dt'][0][1]).replace('{bc}','')
     print ("Result:",txt)
   else:
     print ("Results not found")
