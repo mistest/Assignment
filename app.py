@@ -26,7 +26,7 @@ def main():
 
   if outcome == True:
     txt= str(result_json[0] ['def'][0] ['sseq'][0][0][1] ['dt'][0][1]).replace('{bc}','')
-    print ("Result:",txt)
+    print ("Result of " +dict+" in Merriam-Webster Dictionary is: ",txt)
   else:
     print ("Results not found")
 
