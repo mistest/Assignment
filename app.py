@@ -20,6 +20,11 @@ def main():
   dict= sys.argv[1] 
   outcome, result_json = connect_to_mw_dict(key, dict)
 
+  if outcome == True:
+    txt= str(result_json[0])
+    print ("Result:",txt)
+  else:
+    print ("Results not found")
 
 if __name__ == "__main__":
     main()
