@@ -15,6 +15,11 @@ def connect_to_mw_dict(key, dict):
   else:
     print("Connection failed to MW.")
 
+def main():
+  key=os.environ["API_KEY"]
+  dict= sys.argv[1] 
+  outcome, result_json = connect_to_mw_dict(key, dict)
+
 
 if __name__ == "__main__":
     main()
