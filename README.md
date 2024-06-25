@@ -8,7 +8,7 @@ This is a simple python CLI tool that will return some information from a public
  Python 3.11
  Windows or Unix Machine
  API to be used once you register in https://dictionaryapi.com
-```bash
+```
 
 ```bash
 git clone https://github.com/mistest/Assignment.git
