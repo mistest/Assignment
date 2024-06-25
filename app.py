@@ -3,6 +3,7 @@ import logging
 logging.basicConfig(level = logging.INFO)
 import sys
 import os
+import requests
 
 
 def connect_to_mw_dict(key, dict):
