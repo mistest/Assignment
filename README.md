@@ -18,7 +18,7 @@ git clone https://github.com/mistest/Assignment.git
 set API_KEY=XXXX-XXXX-XXXX-XXXX  (Use export in Linux Instead and value should used as Secret/Masked if needs to be used in Pipelines)
 pip install -r requirements.txt
 python app.py <Word to be Queried>
-    eg:
+eg:
     python app.py exercise
     Argument List: exercise
     INFO:root:Connecting to Merriam-Webster Dictionary
