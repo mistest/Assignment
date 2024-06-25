@@ -11,7 +11,7 @@ This is a simple python CLI tool that will return some information from a public
 ```bash
 
 ```bash
-git clone <>
+git clone https://github.com/mistest/Assignment.git
 set API_KEY=XXXX-XXXX-XXXX-XXXX  (Use export in Linux Instead and value should used as Secret/Masked if needs to be used in Pipelines)
 pip install -r requirements.txt
 python app.py <Word to be Queried>
